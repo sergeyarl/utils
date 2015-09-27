@@ -1,5 +1,12 @@
 #!/usr/bin/env ruby
 
+# This script searches /find-work-home/ page on https://www.upwork.com for new jobs
+# and then pushes notifications to MacOS X Notification Center.
+# Requirments: MacOS 10.9.x or grater (Actually tested only with 10.9.5)
+# TODO:
+# 1. ability to analize custom queries
+# 2. something else
+
 require 'Mechanize'
 require 'parseconfig'
 require 'terminal-notifier'
