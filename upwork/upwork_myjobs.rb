@@ -93,7 +93,7 @@ jobs_page.search("//article[@class='oMed oJobTile jsSimilarTile']").each do |nod
 
   # Send notification via terminal-notifier
   TerminalNotifier.notify( job_desc,
-                           :title   => "Upwork: #{job_name}", 
+                           :title   => "#{job_name}", 
                            :sound   => "Submarine",
                            :appIcon => "#{site_url}/favicon.ico",
                            :open    => "#{site_url}#{job_href}" )
