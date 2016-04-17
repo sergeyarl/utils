@@ -1,0 +1,15 @@
+credentials:
+  freelancer_username: mailbox@gmail.com
+  freelancer_password: password
+
+default:
+  jobs_filename: jobs.txt
+  jobs_to_display: 100
+  exclude_skills:
+  - Website Design
+  - HTML5
+  - Graphic Design
+  - .NET
+  - C# Programming
+  - Microsoft
+  - Microsoft SQL Server
